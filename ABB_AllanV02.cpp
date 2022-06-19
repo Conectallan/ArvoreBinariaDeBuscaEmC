@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <locale.h>
+#include <string.h>
 
 typedef char string[20];
 
@@ -88,13 +89,13 @@ TNo *inserirAluno(TLista *L)
     TAluno *aluno = (TAluno *)malloc(sizeof(TAluno));
 
     printf("Insira o nome do aluno: ");
-    scanf(" %s", &aluno->nome);
+    scanf(" %s", aluno->nome);
 
     printf("Insira a matr?cula do aluno: ");
     scanf("%d", &aluno->matricula);
 
     printf("Insira o sexo do aluno: ");
-    scanf("%d", &aluno->sexo);
+    scanf("%s", &aluno->sexo);
 
     aluno->prox = NULL;
 
@@ -129,7 +130,7 @@ TLista *criarListaAuxiliar(TLista *L)
         strcpy(copia->nome, atual->nome);
         copia->sexo = atual->sexo;
 
-        if (atual = L->fim)
+        if (atual == L->fim)
             copia = aux->fim;
 
         copia->prox = NULL;
