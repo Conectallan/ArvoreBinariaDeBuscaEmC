@@ -1,4 +1,4 @@
-# Arvore Binária de Busca integrada à uma Lista Encadeada em C
+# Arvore Binária de Busca integrada a uma Lista Encadeada em C
 Após a execução do programa, é possível:
 
 Opção 1 - Cadastrar Alunos, inserindo sua matrícula, nome e sexo;
