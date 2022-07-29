@@ -1,4 +1,3 @@
-# ArvoreBinariaDeBuscaEmC
 Arvore Binária de Busca integrada à uma Lista Encadeada em C
 Após a execução do programa, é possível:
 
