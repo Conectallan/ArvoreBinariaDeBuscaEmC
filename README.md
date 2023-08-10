@@ -12,25 +12,7 @@ Este é um programa em C que implementa uma Árvore Binária de Busca integrada 
 
 ## Capturas de Tela
 
-1. **Tela de Cadastro de Alunos**
-
-![Cadastro de Alunos](link_para_imagem1.png)
-
-2. **Listagem por Matrícula**
-
-![Listagem por Matrícula](link_para_imagem2.png)
-
-3. **Listagem em Ordem Alfabética**
-
-![Listagem em Ordem Alfabética](link_para_imagem3.png)
-
-4. **Busca de Alunos por Nome**
-
-![Busca de Alunos por Nome](link_para_imagem4.png)
-
-5. **Remoção de Alunos por Nome**
-
-![Remoção de Alunos por Nome](link_para_imagem5.png)
+Este projeto ainda não possui capturas de tela.
 
 ## Instruções de Uso
 
